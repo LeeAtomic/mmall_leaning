@@ -33,10 +33,7 @@ target/
 .DS_Store
 Thumbs.db
 
-#$ touch README.md
-#$ touch .gitignore
-#$ git init
-#$ git status
-#$ git add .
-#$ git commit --am "xxx"
+
+
+
 

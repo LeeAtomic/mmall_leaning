@@ -1,0 +1,17 @@
+#$ touch README.md --创建README.md文件
+#$ touch .gitignore--创建.gitignore文件
+#$ git init--初始化git项目
+#$ git status--查看文件状态
+#$ git add . 将所有修改过的工作文件提交暂存区
+#$ git commit -am "xxx,备注"--提交文件至本地仓库
+#$ git config --global user.email "tangtianliang@yahoo.com"
+# $ git config --global user.name "LeeAtomic"
+#$ git remote add origin https://github.com/LeeAtomic/mmall_leaning.git 添加远程仓库地址
+#$ git branch--查看本地分支
+#$ git pull --抓取远程仓库所有分支更新并合并到本地
+#$ git push -u origin master--# 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)
+#$ git push -u -f origin master--将本地主分支强制推到远程(如无远程主分支则创建，用于初始化远程仓库)
+#$ git checkout -b v1.0 origin/master:在orign/master(主分支)下创建一个名为v1.0的分支
+#$ git branch -r 查看远程分支
+#$ git push origin HEAD -u 将本地分支推送至远程
+
